@@ -16,6 +16,7 @@
 		E379E01B25EBC48C00DC29F9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E379E01A25EBC48C00DC29F9 /* CardView.swift */; };
 		E379E02825EBC7F800DC29F9 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E379E02725EBC7F800DC29F9 /* DailyScrum.swift */; };
 		E379E02D25EBC82E00DC29F9 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E379E02C25EBC82E00DC29F9 /* Color+Codable.swift */; };
+		E379E03525EBCA2000DC29F9 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E379E03425EBCA2000DC29F9 /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E379E01A25EBC48C00DC29F9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E379E02725EBC7F800DC29F9 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DailyScrum.swift; path = ../../../../Documents/DailyScrum.swift; sourceTree = "<group>"; };
 		E379E02C25EBC82E00DC29F9 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Color+Codable.swift"; path = "../../../../Documents/Color+Codable.swift"; sourceTree = "<group>"; };
+		E379E03425EBCA2000DC29F9 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				E361EE5325EBB772006F82E4 /* Info.plist */,
 				E361EE5025EBB772006F82E4 /* Preview Content */,
 				E379E01A25EBC48C00DC29F9 /* CardView.swift */,
+				E379E03425EBCA2000DC29F9 /* ScrumsView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E379E02825EBC7F800DC29F9 /* DailyScrum.swift in Sources */,
+				E379E03525EBCA2000DC29F9 /* ScrumsView.swift in Sources */,
 				E379E00E25EBC07200DC29F9 /* MeetingView.swift in Sources */,
 				E379E01B25EBC48C00DC29F9 /* CardView.swift in Sources */,
 				E379E02D25EBC82E00DC29F9 /* Color+Codable.swift in Sources */,
