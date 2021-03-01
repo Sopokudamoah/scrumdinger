@@ -14,6 +14,9 @@ struct ScrumsView: View {
     
     var body: some View {
         List {
+            if scrums.isEmpty{
+                Label("No scrums yet", systemImage: "calendar.badge.exclamationmark")
+            }
             ForEach(scrums) { scrum in
                 NavigationLink(destination: DetailView(scrum: binding(for: scrum))) {
                     CardView(scrum: scrum)
